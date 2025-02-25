@@ -1,0 +1,7 @@
+Uma das soluções poderia ser criar uma imagem personalizada e por predefinição instalar de origem o curl para que este processo seja automatizado, sempre que um novo container usar esta imagem ja teremos o curl instalado.
+
+Ficheiro Dockerfile:
+FROM ubuntu
+RUN apt-get update && apt-get install -y curl
+CMD sh -c 'while true; do echo "Input website:"; read website; echo "Searching.."; sleep 1; curl http://$website; done'
+
