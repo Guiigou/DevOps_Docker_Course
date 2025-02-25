@@ -1,6 +1,6 @@
 # DevOps_Docker
 
-# 🚀 DevOps with Docker - Meu Progresso
+## 🚀 DevOps with Docker - Meu Progresso
 
 Este repositório contém os meus exercícios e anotações do curso **[DevOps with Docker](https://devopswithdocker.com/)**.
 
